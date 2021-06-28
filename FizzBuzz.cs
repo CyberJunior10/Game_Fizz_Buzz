@@ -36,7 +36,7 @@ namespace Game_Fizz_Buzz
                         Console.WriteLine("\nInput number: {0}. Far to lucky number.", userNumber);
                     }
                 }
-                catch (ArithmeticException)
+                catch (FormatException)
                 {
                     Console.WriteLine("Wrong data input.");
                 }
